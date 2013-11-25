@@ -60,6 +60,7 @@
         arrow.css(
         	'-webkit-transform','rotate(' + arrowOrientation + 'deg)'
         );
+		alert('Heading: ' + heading.magneticHeading);
     }
 
     // onError: Failed to get the heading
